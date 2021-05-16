@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+target 'RxNetwork' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  # Moya
+#  pod 'RxNetwork/Cacheable'
+  pod 'Moya/RxSwift'
+  # JSON 解析
+  pod 'CleanJSON'
+  pod 'HandyJSON'
+  pod 'NSObject+Rx'
+  pod 'RxCocoa'
+  
+
+  # Pods for RxNetwork
+
+end

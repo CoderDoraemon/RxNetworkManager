@@ -1,0 +1,18 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+target 'NetworkManager' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  
+  # Pods for NetworkManager
+  
+  pod 'RxNetwork/Cacheable'
+  # JSON 解析
+  pod 'CleanJSON'
+  pod 'NSObject+Rx'
+  pod 'Cache'
+  pod 'HandyJSON'
+  pod 'SwiftyJSON'
+  
+end
